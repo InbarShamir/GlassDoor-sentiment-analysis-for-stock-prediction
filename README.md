@@ -1,2 +1,6 @@
 # GlassDoor-sentiment-analysis-for-stock-prediction
 Utilizing GlassDoor reviews and stocks data to predict companies' future stock prices using an LSTM network.
+
+The GlassDoor website presents an opportunity to write anonymous employee reviews about their workplace, which can be analyzed to classify them as positive or negative. Through this process, it is possible to derive an average rating of the employees’ experience during a specific period of time. Based on the assumption that employee satisfaction is positively correlated with productivity, it is estimated that a positive work environment will lead to increased productivity and improved performance. Consequently, the company’s products will receive more favorable reviews, potentially leading to a corresponding increase in the value of the company’s stock. This paper presents a novel approach utilizing GlassDoor reviews and stocks data of nine companies to predict their future stock prices using an LSTM network. The effectiveness of the proposed approach is validated using real-world data, showcasing its performance in predicting stock prices.
+
+In this project, sentiment analysis was applied to GlassDoor reviews using the TextBlob library, to derive a sentiment score. Than, an LSTM (Long Short-Term Memory) model was built to forecast stock prices by incorporating both stock data and reviews scores.
